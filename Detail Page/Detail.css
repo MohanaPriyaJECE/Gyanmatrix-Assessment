@@ -1,77 +1,155 @@
 body{
     position: relative;
-width: 1440px;
-height: 1024px;
+width: 1300px;
+height: 600px;
 background: #FFECE8;
+
 }
-.box{
+.wizardlogo{
+    position: absolute;
+width: 200px;
+height: 90.51px;
+left: 25px;
+top: 10px;
+}
+.image {
+    
+position:absolute;
+width: 1200px;
+height: 570px;
+scroll-margin-bottom: 0%;
+top: 80px;
+margin-left: 30px;
+right: 20px;
+
+}
+
+.container{
     box-sizing: border-box;
-position: absolute;
-left: 5%;
-right: 8%;
-top: 16.86%;
-bottom: 0%;
+
+position:absolute;
+left: 180px;
+right:0px;
+height: 470px;
+width: 1000px;
+bottom: 100px;
+top: 150px;
 
 background: #000000;
 border: 1px solid #000000;
 border-radius: 29px;
+
 }
-.container{
+.inner-container{
     position: absolute;
-left: 1.91%;
-right: 1.81%;
-top: 19.29%;
-bottom: 2.31%;
+left: 19.82px;
+right: 18.64px;
+top: 22.58px;
+bottom: 21.5px;
 
 background: #9C1801;
 filter: blur(20px);
 border-radius: 29px;
 }
-.container1{
+.icon{
     position: absolute;
-width: 1122px;
-height: 868px;
-left: 159px;
-top: 157px;
-filter: blur(41.5px);
-background: #FFB6A9;
+    height: 100;
+    width: 130;
+left: 37.84%;
+right: 37.84%;
 
+bottom: 76.57%;
+filter: blur(0%);
 }
-.Logo1{
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+}
+
+.container {
     position: absolute;
-    left: 37.84%;
-    right: 37.84%;
-    top: 0%;
-    bottom: 70.57%;
-    
-    background: url(Images/Icon.png);
-    background-blend-mode: overlay;
+    width: 1028px;
+    height: 931px;
+    left: 206px;
+    top: 47px;
 }
-.profile{
+
+.houselogo {
+    height: 150px;
+    margin-left: 420px;
+}
+
+.detail-container {
     position: absolute;
-left: 64.69%;
-right: 8.46%;
-top: 25.24%;
-bottom: 38.56%;
-
-background: url(Images/Rectangle\ 48.png);
-filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.25));
-border-radius: 21px;
+    left: 1.91%;
+    right: 1.81%;
+    top: 100px;
+    bottom: 2.31%;
+    background: #9C1801;
+    border-radius: 29px;
 }
-h1{
-    position: absolute;
-left: 15.08%;
-right: 63.81%;
-top: 22.56%;
-bottom: 68.64%;
 
-font-family: 'Pirata One';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 82px;
-
-color: #DCDCDC;
-
-
+.profile {
+    height: 250px;
 }
+
+
+
+
+#results {
+    margin: 30px;
+  }
+  .all {
+    display: flex;
+  }
+  .container .flag-img {
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .text {
+    margin: 20px;
+    width: 50%;
+  }
+
+  .image {
+    padding-left: 175px;
+    width: 50%;
+  }
+
+  .container h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .container h4 {
+    display: inline;
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+  }
+  .container span {
+    padding-left: 30px;
+    color: #fff;
+    font-size: 30px;
+  }*/
