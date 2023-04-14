@@ -53,103 +53,322 @@ border-radius: 29px;
 }
 .icon{
     position: absolute;
-    height: 100;
-    width: 130;
-left: 37.84%;
-right: 37.84%;
+    height: 204px;
+    width: 180px;
+    left: 37.84%;
+    right: 37.84%;
 
-bottom: 76.57%;
+bottom: 80.57%;
 filter: blur(0%);
 }
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.harry-img{
+  position: absolute;
+  height: 276px;
+  width: 256px;
+left: 660.38px;
+right: 60.4px;
+top: 50.42px;
+bottom:337.5px;
+filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.25));
+border-radius: 21px;
+}
+.name{
+  position: absolute;
+left: 121.38px;
+right: 591.px;
+top: 0px;
+bottom: 617.8px;
+
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 100;
+font-size: 44px;
+
+color: #DCDCDC;
+}
+.species{
+  position: absolute;
+left: 95px;
+right: 847.6px;
+top: 85px;
+bottom:560px;
+height: 31px;
+width: 71px;
+
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+color: #DCDCDC;
+}
+.gender{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 115px;
+bottom:478px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
+.house{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 145px;
+bottom:418px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
+.DOB{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 175px;
+bottom:358.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-body {
-    background-color: pink;
-    height: 100vh;
-    width: 100%;
+.ancestry{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 205px;
+bottom:298.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-.logo {
-    height: 100px;
+.eye{
+  position: absolute;
+left: 95px;
+right: 780px;
+top: 235px;
+bottom:238.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-.container {
-    position: absolute;
-    width: 1028px;
-    height: 931px;
-    left: 206px;
-    top: 47px;
+.haircolor{
+  position: absolute;
+left: 95px;
+right: 780px;
+top: 265px;
+bottom:178.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-.houselogo {
-    height: 150px;
-    margin-left: 420px;
+.wand{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 295px;
+bottom:118px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-.detail-container {
-    position: absolute;
-    left: 1.91%;
-    right: 1.81%;
-    top: 100px;
-    bottom: 2.31%;
-    background: #9C1801;
-    border-radius: 29px;
+.patronus{
+  position: absolute;
+left: 95px;
+right: 847px;
+top: 325px;
+bottom:58.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
-.profile {
-    height: 250px;
+
+.species-r{
+  position: absolute;
+left: 330.66px;
+right: 591.6px;
+top: 85px;
+bottom:560px;
+height: 31px;
+width: 71px;
+
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+color: #DCDCDC;
+}
+.gender-r{
+  position: absolute;
+left:  330.66px;
+right: 591.6px;
+top: 115px;
+bottom:478px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
+.house-r{
+  position: absolute;
+left:  330.66px;
+right: 591.6px;
+top: 145px;
+bottom:418px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
+.DOB-r{
+  position: absolute;
+left:  330.66px;
+right: 530.6px;
+top: 175px;
+bottom:358.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
 }
 
+.ancestry-r{
+  position: absolute;
+left:  330.66px;
+right: 530.6px;
+top: 205px;
+bottom:298.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
 
+color: #DCDCDC;
+}
 
+.eye-r{
+  position: absolute;
+left:  330.66px;
+right: 591.6px;
+top: 235px;
+bottom:238.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
 
-#results {
-    margin: 30px;
-  }
-  .all {
-    display: flex;
-  }
-  .container .flag-img {
-    height: 300px;
-    border-radius: 20px;
-  }
+color: #DCDCDC;
+}
 
-  .text {
-    margin: 20px;
-    width: 50%;
-  }
+.haircolor-r{
+  position: absolute;
+left:  330.66px;
+right: 591.6px;
+top: 265px;
+bottom:178.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
 
-  .image {
-    padding-left: 175px;
-    width: 50%;
-  }
+color: #DCDCDC;
+}
 
-  .container h2 {
-    font-size: 40px;
-    font-weight: 600;
-    color: white;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 1.8em;
-  }
-  .data-wrapper {
-    margin-bottom: 1em;
-    letter-spacing: 0.3px;
-  }
-  .container h4 {
-    display: inline;
-    font-size: 30px;
-    color: #fff;
-    padding: 20px;
-  }
-  .container span {
-    padding-left: 30px;
-    color: #fff;
-    font-size: 30px;
-  }*/
+.wand-r{
+  position: absolute;
+left:  330.66px;
+right: 400.6px;
+top: 295px;
+bottom:118px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
+
+.patronus-r{
+  position: absolute;
+left:  330.66px;
+right: 591.6px;
+top: 325.5px;
+bottom:58.5px;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+}
