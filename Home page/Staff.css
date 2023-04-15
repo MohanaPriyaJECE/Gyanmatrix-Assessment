@@ -1,0 +1,94 @@
+body{
+  background-color: rgb(255, 226, 231);
+}
+.logo{
+  position: absolute;
+  width: 240px;
+  height: 100.51px;
+  left: 29px;
+  top: 13px;
+  }
+  .student{
+    position: absolute;
+    width: 217px;
+   height: 83px;
+    left: 900px;
+    top: 37px;
+}
+.staff{
+  position: absolute;
+width: 162px;
+height: 83px;
+left: 1150px;
+top: 37px;
+}
+.background{
+  position: absolute;
+width: 1210px;
+height: 550px;
+left: 74px;
+top: 73px;
+right:74px;
+
+background: #CDCFEE;
+filter: blur(41.5px);
+}
+.outerframe{
+  box-sizing: border-box;
+
+position: absolute;
+height: 230px;
+width: 240px;
+left: 83px;
+right: 995px;
+top: 100px;
+bottom: 535px;
+
+}
+.innerframe{
+  position: absolute;
+  height: 147px;
+  width: 107px;
+left: 148.48px;
+right: 23.9%;
+top: 155px;
+bottom: 567px;
+}
+.image{
+  position: absolute;
+left: 161px;
+right: 30.39%;
+top: 212px;
+bottom: 10.2%;
+height: 87px;
+width: 80.4px;
+}
+.frame{
+  border: 0;
+  padding: 120px;
+  position: relative;
+}
+.box{
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.name{
+  position: absolute;
+left: 146px;
+right: 23.76%;
+top: 300px;
+bottom: 770px;
+width: 110px;
+height: 25px;
+
+background: #E0C667;
+font-family: 'Pirata One';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 25px;
+color: #000000;
+text-align: center;
+}
