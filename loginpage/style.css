@@ -1,68 +1,86 @@
 body{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    background-color: black;
-    background-image: url(Images/Background1.jpg);
+    
+        background-color: #000;
+        font-family: roboto;
+        background-size: cover;
+        width: 1340px;
+        background-repeat: no-repeat;
+}
+  .bg{
+    height: 645px;
+    width: 1340px;
+    background-repeat: no-repeat;
+  }
+    .topleft{
+        position: absolute;
+        width: 266px;
+        height: 116.51px;
+        left: 29px;
+        top: 13px;
     }
-    .box{
+    .login{
+        left: 0px;
+        top: 0px;
+        
+        width: 16em;
+    margin-right: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 38px;
+    border-color: #ff9100;
+    }
+   .box{
     position: absolute;
-    width: 158px;
-    height: 75px;
     left: 281px;
-    top: 212px;
+    top: 172px;
     
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 75px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
     letter-spacing: -0.015em;
     color: white;
     }
-    
+
     .email{
-        color:#FFFFFF;
-        box-sizing: border-box;
+        color: #ffffff;
         position: absolute;
-        width: 521px;
-        height: 80px;
-        left: 100px;
-        top: 340px;
-        border: 1px solid #FCF291;
-        backdrop-filter: blur(200px);
-        border-radius: 38px;
-        background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
-        background-blend-mode: overlay;
-        padding:40px;
+        
+      width: 381px;
+      height:20px;
+    left: 140px;
+     top: 270px;
+     box-sizing: border-box;
+     border: 1px solid red;
+     backdrop-filter: blur(200px);
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+     background-blend-mode: overlay;
+     padding: 25px;
+    border-radius: 46px;
     }
     .password{
-        color:#FFFFFF;
-        box-sizing: border-box;
-    position: absolute;
-    width: 521px;
-    height: 80px;
-    left: 100px;
-    top: 454px;
-    border: 1px solid #FCF291;
-    backdrop-filter: blur(200px);
-    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
-    border-radius: 38px;
-    padding:40px;
+        color: #ffffff;
+        position: absolute;  
+      width: 381px;
+      height:20px;
+      left: 140px;
+     top: 340px;
+    box-sizing: border-box;
+     border: 1px solid red;
+     backdrop-filter: blur(200px);
+     background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+     background-blend-mode: overlay;
+    padding: 25px;
+    border-radius: 46px;
     }
-    .container{
-        position: absolute;
-    width: 721px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
-    }
+  
     button{
         position: absolute;
-    width: 521px;
-    height: 80px;
-    left: 100px;
-    top: 634px;
+    width: 381px;
+    height: 50px;
+    left: 140px;
+    top: 450px;
     
     background: #FFCD2D;
     backdrop-filter: blur(200px);
@@ -75,4 +93,10 @@ body{
     
     color: #000000;
     }
-    
+    footer{
+        position: absolute;
+        font-size: 12px;
+        left: 1200px;
+        top: 620px;
+        color: #ffffff;
+    }
